@@ -1,79 +1,70 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" width="100%" alt="Justin Yu — 工程、工具与自动化">
+  <img src="./assets/hero-light.svg" width="100%" alt="Justin Yu — 工程如器，工具如用">
 </picture>
 
 <div align="center">
 
-[简介 About](#简介--about) · [作品 Works](#作品--works) · [工具 Toolbox](#工具--toolbox) · [通道 Elsewhere](#通道--elsewhere)
+[展览说明 Note](#展览说明--note-on-the-collection) · [展品 Works](#展品--works) · [工具 Toolbox](#工具--toolbox) · [通道 Elsewhere](#通道--elsewhere)
 
 </div>
 
-## 简介 · About
+## 展览说明 · Note on the Collection
 
-我做工程文件管理系统、企业内网工具链与自动化。偏好的做法：先弄清问题为什么反复出现，再决定是写一条规矩，还是做一件能长期用的东西。多数工具从具体的麻烦里长出来——权限分不清、PDF 改不动、流程要点五次——做完就一直用下去。
+这里挂着几件小玩意。有替人管工程的，有替人改 PDF 的，也有一件，只为了让一句话变成一次编辑。它们出自同一种脾气：先弄清问题为什么反复出现，再决定是写一条规矩，还是做一件能长期用的东西。多数工具从具体的麻烦里长出来——权限分不清、PDF 改不动、流程要点五次——做完就一直用下去。
 
-*I build engineering file systems, internal toolchains, and automation. My rule: understand why a problem keeps returning before deciding whether it deserves a rule or a tool. Most of these grew from real friction — unclear permissions, stubborn PDFs, workflows that cost five extra clicks.*
+*There are a few small things hanging here. One organises engineering files, one edits PDFs, and one turns a sentence into an edit. They share the same temperament: understand why a problem keeps returning before deciding whether it deserves a rule or a tool. Most grew from real friction — unclear permissions, stubborn PDFs, workflows that cost five extra clicks — and once built, they stay in use.*
 
-## 作品 · Works
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/works/npi-file-manager-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/works/npi-file-manager-light.svg">
-  <img src="./assets/works/npi-file-manager-light.svg" width="100%" alt="npi-file-manager">
-</picture>
-
-<a href="https://github.com/justin-yu-space/npi-file-manager"><b>Ⅰ · npi-file-manager</b></a><br>
-<sub>工程文件管理系统：多级目录、细粒度权限、审计日志、3D 预览。</sub>
-
-</td>
-<td width="50%" valign="top" align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/works/pdf-toolbox-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/works/pdf-toolbox-light.svg">
-  <img src="./assets/works/pdf-toolbox-light.svg" width="100%" alt="pdf-toolbox">
-</picture>
-
-<a href="https://github.com/justin-yu-space/pdf-toolbox"><b>Ⅱ · pdf-toolbox</b></a><br>
-<sub>PDF 编辑工具箱：文字替换、插入对齐、样式检测，桌面端交付。</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/works/ai-retouch-agent-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/works/ai-retouch-agent-light.svg">
-  <img src="./assets/works/ai-retouch-agent-light.svg" width="100%" alt="ai-retouch-agent">
-</picture>
-
-<a href="https://github.com/justin-yu-space/ai-retouch-agent"><b>Ⅲ · ai-retouch-agent</b></a><br>
-<sub>AI 图片编辑器：自然语言指令 + 多工具调用的编辑 Agent。</sub>
-
-</td>
-<td width="50%" valign="top" align="center">
-
-<p align="center"><sub>在做的方向 / CURRENT FOCUS</sub></p>
+## 展品 · Works
 
 <p align="center">
-<kbd>NPI v5.0</kbd>&nbsp; <kbd>3D Preview</kbd>&nbsp; <kbd>OCCT / GLB</kbd><br>
-<kbd>RBAC 权限</kbd>&nbsp; <kbd>Waitress</kbd><br>
-<kbd>PyInstaller</kbd>&nbsp; <kbd>Excel COM</kbd>
+  <a href="https://github.com/justin-yu-space/npi-file-manager">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/works/npi-file-manager-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/works/npi-file-manager-light.svg">
+      <img src="./assets/works/npi-file-manager-light.svg" width="700" alt="npi-file-manager">
+    </picture>
+  </a>
 </p>
 
-<p align="center"><sub>工程文件、权限精确、桌面交付、视觉细节。</sub><br>
-<sub><i>Files, precise permissions, desktop delivery, visual craft.</i></sub></p>
+<p align="center">
+<b>Ⅰ · npi-file-manager</b><br>
+<sub>工程文件管理系统：多级目录、细粒度权限、审计日志与 3D 预览。</sub><br>
+<sub><i>Project files with multi-level folders, granular permissions, audit trails and 3D preview.</i></sub>
+</p>
 
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/justin-yu-space/pdf-toolbox">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/works/pdf-toolbox-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/works/pdf-toolbox-light.svg">
+      <img src="./assets/works/pdf-toolbox-light.svg" width="700" alt="pdf-toolbox">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+<b>Ⅱ · pdf-toolbox</b><br>
+<sub>PDF 编辑工具箱：文字替换、插入对齐、样式检测，桌面端交付。</sub><br>
+<sub><i>A desktop PDF toolbox for text replacement, alignment and style inspection.</i></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/justin-yu-space/ai-retouch-agent">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/works/ai-retouch-agent-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/works/ai-retouch-agent-light.svg">
+      <img src="./assets/works/ai-retouch-agent-light.svg" width="700" alt="ai-retouch-agent">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+<b>Ⅲ · ai-retouch-agent</b><br>
+<sub>AI 图片编辑器：自然语言指令 + 多工具调用的编辑 Agent。</sub><br>
+<sub><i>An image editing agent driven by natural language and multiple tools.</i></sub>
+</p>
 
 ## 工具 · Toolbox
 
@@ -91,7 +82,8 @@
 <p align="center">
   <a href="https://github.com/justin-yu-space"><img src="https://img.shields.io/badge/justin--yu--space-2C2C2A?style=flat-square&logo=github&logoColor=white&label=GitHub" alt="GitHub"></a>&nbsp;
   <a href="https://github.com/justin-yu-space/npi-file-manager"><img src="https://img.shields.io/badge/NPI%20Systems-8B5E34?style=flat-square&logo=bookstack&logoColor=FFE7BE&label=%E5%B7%A5%E7%A8%8B" alt="NPI"></a>&nbsp;
-  <a href="https://github.com/justin-yu-space/pdf-toolbox"><img src="https://img.shields.io/badge/PDF%20Toolbox-3E6E5A?style=flat-square&logo=adobeacrobatreader&logoColor=white&label=%E5%B7%A5%E5%85%B7" alt="PDF"></a>
+  <a href="https://github.com/justin-yu-space/pdf-toolbox"><img src="https://img.shields.io/badge/PDF%20Toolbox-3E6E5A?style=flat-square&logo=adobeacrobatreader&logoColor=white&label=%E5%B7%A5%E5%85%B7" alt="PDF"></a>&nbsp;
+  <a href="https://github.com/justin-yu-space/my-tech-blog"><img src="https://img.shields.io/badge/JIE%27s%20Blog-6D28D9?style=flat-square&logo=rss&logoColor=white&label=%E5%8D%9A%E5%AE%A2" alt="Blog"></a>
 </p>
 
 <br>
